@@ -1,0 +1,46 @@
+# Игнорирование папки виртуального окружения
+venv/
+env/
+
+# Папка IDE (PyCharm)
+.idea/
+
+# Компилированные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info
+*.rej
+*.orig
+
+# Логи и базы данных
+*.log
+*.sql
+*.sqlite
+
+# Исключения для различных инструментов и систем сборки
+*.swp
+*.swo
+*.swn
+*.bak
+*.cache
+*.DS_Store
+*.egg
+*.hypothesis/
+*.mypy_cache/
+*.nox/
+*.pytest_cache/
+*.tox/
+
+# Файлы и директории, созданные в процессе установки
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Зависимости
+requirements.txt
+
+# Другие файлы и директории
+.DS_Store
+Thumbs.db
